@@ -1,0 +1,85 @@
+/*IPAD*/
+@media screen and (max-width:799px) {
+    .navbar{
+        width: 250px;
+        position: fixed;
+        right: -41px;
+    }
+    ul.nav-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100vh;
+        width: 300px;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        padding: 100px 0 0 20px;
+        box-shadow: 0 40px 60px rgba(0, 0, 0,0.1);
+        background-color: #ebecf7de;
+        transition: all 0.4s ease;
+    }
+    ul.nav-links.active{
+        right: 0;
+
+    }
+    #mobile{
+        display: flex;
+        text-align: center;
+
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+    #uptIcon{
+        display: flex;
+        position: relative;
+        bottom: 40px;
+    }
+    #close{
+        display: flex;
+        color: #222;
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    #cartButton{
+        display: none;
+    }
+    .hero-section {
+        height: 80vh;
+        padding: 0 10px;
+        margin-top: 60px;
+    }
+    .hero-content {
+        max-width: 600px;
+    }
+    .hero-title{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .hero-subtitle {
+        font-size: 1rem;
+        color: #666666;
+    }
+    .cart-container {
+        background-color: #e8e8e8;
+        padding: 8px 16px;
+        border-radius: 20px;
+        transition: background-color 0.3s ease;
+    }
+    .cart-container:hover {
+        background-color: #585656;
+    }
+    #shop{
+        width: 90%;
+        
+        margin: auto;
+    }
+}
