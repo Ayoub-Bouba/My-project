@@ -3,7 +3,6 @@
     .navbar{
         width: 250px;
         position: fixed;
-        right: -41px;
     }
     ul.nav-links{
         display: flex;
