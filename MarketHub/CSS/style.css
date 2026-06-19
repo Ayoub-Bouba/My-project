@@ -89,7 +89,7 @@ button.white {
   justify-content: space-between;
   align-items: center;
   padding: 18px 80px;
-  background: linear-gradient(135deg,#58588085,#16213e4d);
+  background: linear-gradient(135deg,var(--primary-color),#beebe56b);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
   position: sticky;
   top: 0;
