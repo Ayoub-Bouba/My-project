@@ -15,3 +15,9 @@ document.addEventListener("click", (e) => {
         }
     }
 });
+let pro=document.getElementsByClassName("pro");
+for(let i=0; i<pro.length;i++){
+    pro[i].addEventListener("click",()=>{
+    window.location.href="sproduct.html";
+})
+}

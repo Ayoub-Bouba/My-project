@@ -23,7 +23,7 @@
       <a href="#" class="logo">Velora</a>
       <nav>
         <ul id="navbar">
-             <li><a class="active" href="index (1).html ">home</a></li>
+             <li><a class="active" href="index.html">home</a></li>
              <li><a href="subpages/shop.html">Shop</a></li>
              <li><a href="subpages/blog.html">Blog</a></li>
              <li><a href="subpages/about.html">About</a></li>
@@ -319,6 +319,14 @@
         <p>©2026 Poignet. All rights reserved | Crafted with passion.</p>
       </div>
     </footer>
+    <script>
+      let pro=document.getElementsByClassName("pro");
+      for(let i=0; i<pro.length;i++){
+          pro[i].addEventListener("click",()=>{
+              window.location.href="subpages/sproduct.html";
+          })
+      }
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>
