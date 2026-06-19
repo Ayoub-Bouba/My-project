@@ -93,6 +93,7 @@
     footer{
         margin: 0;
     }
+    
 }
 /* mobile*/
 @media screen and (max-width:477px) {
@@ -153,5 +154,15 @@
     }
     footer .copyright{
         text-align: start;
+    }
+    #prodetails{
+        flex-direction: column;
+    }
+    #prodetails .single-pro-details{
+        width: 100%;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+        margin-right: 0;
     }
 }
