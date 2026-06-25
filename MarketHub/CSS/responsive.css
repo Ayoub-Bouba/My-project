@@ -93,6 +93,14 @@
     footer{
         margin: 0;
     }
+    /* contact */
+    #form-details{
+        padding: 40px;
+    }
+    /* contact */
+    #form-details form{
+        width: 50%;
+    }
     
 }
 /* mobile*/
@@ -180,5 +188,51 @@
     }
     #blog .blog-details{
         width: 100%;
+    }
+    /* About */
+    .about-header p{
+        font-size: 12px;
+    }
+    #about-header{
+        flex-direction: column;
+        padding: 30px 20px 30px 20px;
+    } 
+    #about-header img{
+        width: 100%;
+    }
+    #about-app .video{
+        width: 100%;
+    }
+    /* contact*/
+    /* contact */
+    #contact-details{
+        flex-direction: column;
+    }
+    #contact-details .details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #contact-details .map{
+        width: 100%;
+    }
+    #form-details{
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    #form-details form{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    /* cart*/
+    #cart-add{
+        flex-direction: column;
+    }
+    #coupon{
+        width: 100%;
+    }
+    #subtotal{
+        width: 100%;
+        padding: 20px;
     }
 }

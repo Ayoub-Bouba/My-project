@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velora</title>
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- favicon -->
+    <link rel="icon" href="../img/favicon.ico"/>
+    <!-- css style -->
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/responsive.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <a href="#" class="logo">Velora</a>
+      <nav>
+        <ul id="navbar">
+             <li><a  href="../index.html ">home</a></li>
+             <li><a href="shop.html">Shop</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a class="active" href="cart.html">
+              <i class="fa-solid fa-bag-shopping head-cart"></i>
+            </a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+
+        </ul>
+      </nav>
+      <div id="mobile">
+        <a href="cart.html">
+              <i class="fa-solid fa-bag-shopping head-cart"></i>
+        </a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="page-header" class="about-header">
+          <h2 class="select-none">#cart</h2>
+          <p class="select-none">Add your coupan & SAVE upto 70%!</p>
+    </section>
+    <!-- cart  -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                   <td>REMOVE</td>
+                   <td>IMAGE</td>
+                   <td>PRODUCT</td>
+                   <td>PRICE</td>
+                   <td>QUANTITY</td>
+                   <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><button class="normal delete">delete</button></td>
+                    <td><img src="../img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>125dh</td>
+                    <td><input type="number" value="1"></td>
+                    <td>150dh</td>
+
+                </tr>
+                <tr>
+                    <td><button class="normal delete">delete</button></td>
+                    <td><img src="../img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>125dh</td>
+                    <td><input type="number" value="1"></td>
+                    <td>125dh</td>
+
+                </tr>
+                <tr>
+                    <td><button class="normal delete">delete</button></td>
+                    <td><img src="../img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>125dh</td>
+                    <td><input type="number" value="1"></td>
+                    <td>155dh</td>
+
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+    <!-- cart add -->
+     <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="email" placeholder="Entrez Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>125dh</td>
+                </tr>
+                <tr>
+                    <td>Shipping </td>
+                    <td>free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>125dh</strong></td>
+                </tr>
+            </table>
+            <button type="submit" class="normal"> Procced to checkout</button>
+        </div>
+     </section>
+    
+    <!-- Footer Deja wajd hit fih bzaf tl content -->
+    <footer class="section-p1">
+      <div class="col">
+        <a href="#" class="logo">Velora</a>
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> Maroc Es-smara
+        </p>
+        <p><strong>Phone:</strong> 212 773194771</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="./subpages/about.html">About Us</a>
+        <a href="./subpages/blog.html">Delivery Information</a>
+        <a href="./subpages/blog.html">Privacy Poilcy</a>
+        <a href="./subpages/blog.html">Terms &amp; Condition</a>
+        <a href="./subpages/contact.html">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#newsLetter">Sign In</a>
+        <a href="./subpages/cart.html">View Cart</a>
+        <a href="./subpages/shop.html">My WishList</a>
+        <a href="./subpages/sproduct.html">Track My Order</a>
+        <a href="./subpages/contact.html">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="../img/pay/app.jpg" alt="app" />
+          <img src="../img/pay/play.jpg" alt="play" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="../img/pay/pay.png" alt="pay" />
+      </div>
+      <div class="copyright">
+        <p>©2026 Poignet. All rights reserved | Crafted with passion.</p>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
+ 

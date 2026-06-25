@@ -15,9 +15,24 @@ document.addEventListener("click", (e) => {
         }
     }
 });
-let pro=document.getElementsByClassName("pro");
-for(let i=0; i<pro.length;i++){
-    pro[i].addEventListener("click",()=>{
+
+let pro1=document.getElementsByClassName("pro");
+for(let i=0; i<pro1.length;i++){
+    pro1[i].addEventListener("click",()=>{
     window.location.href="sproduct.html";
+    
 })
 }
+let pro=document.querySelectorAll("#home .pro");
+for(let i=0; i<pro.length;i++){
+    pro[i].addEventListener("click",()=>{
+    window.location.href="subpages/sproduct.html";
+})
+}
+let delet=document.querySelectorAll(".delete");
+for(let elm of delet){
+    elm.addEventListener("click",()=>{
+      elm.closest("tr").remove();
+    });
+}
+
