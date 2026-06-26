@@ -89,8 +89,8 @@ button.white {
   justify-content: space-between;
   align-items: center;
   padding: 18px 80px;
-  background: linear-gradient(135deg,var(--primary-color),#beebe56b);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  background: linear-gradient(135deg,#beebe59d,#4444443f);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   position: sticky;
   top: 0;
   left: 0;
@@ -100,7 +100,7 @@ button.white {
   font-size: 1.8rem;
   text-decoration: none;
   font-weight: 800;
-  background: linear-gradient(90deg,#9e4554,#0f3460);
+  background: linear-gradient(90deg,#9e6c75,#0f3460);
   text-transform: uppercase;
   letter-spacing: 2px;
   -webkit-background-clip: text;
